@@ -1,4 +1,4 @@
-export default function GroomingTypeListing()
+export default function MatchesListing()
 {
     return (
         <div>
