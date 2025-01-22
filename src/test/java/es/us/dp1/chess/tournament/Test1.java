@@ -78,6 +78,8 @@ public class Test1 extends ReflexiveTest{
 
 
         Round r=createValidRound(em);
+        if(r.getTournament()!=null)
+            em.persist(r.getTournament());
         em.persist(r);
         
         checkThatFieldsAreMandatory(r, em, "roundDate");        
