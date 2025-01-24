@@ -44,4 +44,4 @@ jobs:
       - name: Run frontend tests
         if: always()
         working-directory: ./frontend
-        run: CI=true npm run test -- --testResultsProcessor="jest-junit-reporter"
+        run: CI=true npm run test --ci --testResultsProcessor=jest-junit-reporter
