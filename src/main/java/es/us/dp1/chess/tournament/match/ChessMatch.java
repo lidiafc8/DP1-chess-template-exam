@@ -3,7 +3,6 @@ package es.us.dp1.chess.tournament.match;
 import java.time.LocalDateTime;
 
 import es.us.dp1.chess.tournament.model.NamedEntity;
-import es.us.dp1.chess.tournament.round.Round;
 import es.us.dp1.chess.tournament.user.User;
 
 import jakarta.persistence.Transient;
@@ -36,9 +35,6 @@ public class ChessMatch extends NamedEntity implements Cloneable {
 
     @OneToOne(cascade = CascadeType.ALL)
     ChessBoard board;
-
-    @Transient
-    Round round;
 
     public ChessMatch clone() {
         ChessMatch match = new ChessMatch();

@@ -1,7 +1,5 @@
 package es.us.dp1.chess.tournament.auth;
 
-import java.util.ArrayList;
-
 import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;
 

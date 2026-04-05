@@ -2,14 +2,8 @@ package es.us.dp1.chess.tournament.horsemovevalidator;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-import java.time.LocalDate;
-import java.util.List;
-import java.util.Set;
-
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.fail;
-import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
-import static org.junit.jupiter.api.Assertions.assertThrows;
 import es.us.dp1.chess.tournament.match.horsemovevalidator.HorseMoveValidator;
 import es.us.dp1.chess.tournament.match.horsemovevalidator.ValidHorseMoveValidator;
 
