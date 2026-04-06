@@ -47,8 +47,7 @@ public class ChessMatchService {
 
     @Transactional
     public ChessMatch save(ChessMatch m) {
-        // TODO: Change to solve exercise 8:
-        return null;
+        return repo.save(m);
     }
     
     @Transactional
