@@ -31,6 +31,7 @@
   },
   "devDependencies": {
     "identity-obj-proxy": "^3.0.0",
+    "jest-junit-reporter": "^1.1.0",
     "msw": "^1.2.1",
     "nth-check": "^2.1.1",
     "prettier": "^2.8.8",
